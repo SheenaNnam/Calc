@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Questrial&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(36, 38, 43);
+
+}
+
+.mainPage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcBody{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 
+    8px 8px 10px rgba(36, 35, 35, 0.65),
+    -8px -8px 10px rgba(255, 255, 255, 0.027);
+    gap: 40px;
+    height: 600px;
+    width: 400px;
+}
+.screen{
+    font-family: "Orbitron", serif;
+    box-shadow: 
+    inset 8px 8px 15px rgba(36, 35, 35, 0.65),
+    inset -8px -8px 15px rgba(255, 255, 255, 0.027);
+    width: 350px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 25px;
+    font-size: 25px;
+    text-align: right;
+}
+.screen p{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.calcMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 
+    inset 8px 8px 15px rgba(36, 35, 35, 0.65),
+    inset -8px -8px 15px rgba(255, 255, 255, 0.027);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 375px;
+    gap: 10px;
+}
+
+input[type="button"]{
+    height: 60px;
+    width: 60px;
+    margin: 0px 7px;
+    font-family: 'Questrial';
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 
+    8px 8px 10px rgba(36, 35, 35, 0.65),
+    -8px -8px 10px rgba(255, 255, 255, 0.014);
+}
+
+input[type="button"]:hover{
+    background-color: rgba(98, 100, 102, 0.137);
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
